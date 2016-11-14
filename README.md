@@ -1,2 +1,0 @@
-# nerds
-my training project
