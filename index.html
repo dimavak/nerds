@@ -1,166 +1,142 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <title>Дизайн-студия "Нердс"</title>
+	<meta charset="utf-8">
+	<title>Дизайн-студия "Нердс"</title>
 </head>
 <body>
 <header class="header">
-  <div class="header__wrapper">
-    <div class="logo">
-      <a href="#"><img class="logo__img" src="/" width="150" height="50" alt="Дизайн-студия Нердс"></a>
-    </div>
-    <nav>
-      <ul class="menu">
-        <li class="menu__item">
-          <a class="link menu__link" href="#">Студия</a>
-        </li>
-        <li class="menu__item">
-          <a class="link menu__link" href="#">Клиенты</a>
-        </li>
-        <li class="menu__item">
-          <a class="link menu__link" href="#">Магазин</a>
-        </li>
-        <li class="menu__item">
-          <a class="link menu__link" href="#">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="header__basket">
-      <a class="link header__link-basket" href="#">Корзина</a>
-    </div>
-  </div>
+	<div class="header__wrapper">
+		<a href="#"><img class="logo__img" src="/" width="150" height="50" alt="Дизайн-студия Нердс"></a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__item">
+					<a class="menu__link" href="#">Студия</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Клиенты</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Магазин</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+		<a class="header__link-basket" href="#">Корзина</a>
+	</div>
 </header>
 <main class="main">
-  <div class="main__wrapper">
-    <section class="sliders">
-      <div class="sliders__slider1">
-        <section class="sliders__desc">
-          <h2 class="sliders__header">Долго, дорого, скрупулезно.</h2>
-          <p class="sliders__content">Математически выраженный дизайн для вашего сайта или мобильного приложения.</p>
-          <a class="btn sliders__btn" href="#">Узнать больше</a>
-        </section>
-        <div class="sliders__img-wrapper">
-          <img class="sliders__img" src="/" width="250" height="150" alt="Изображение к слайду 1">
-        </div>
-      </div>
-      <div class="sliders__slider2">
-        <section class="sliders__desc">
-          <h2 class="sliders__header">Любите ли вы математику, как любим ее мы?</h2>
-          <p class="sliders__content">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
-          <a class="btn sliders__btn" href="#">Узнать больше</a>
-        </section>
-        <div class="sliders__img-wrapper">
-          <img class="sliders__img" src="/" width="250" height="150" alt="Изображение к слайду 2">
-        </div>
-      </div>
-      <div class="sliders__slider2">
-        <section class="sliders__desc">
-          <h2 class="sliders__header">Только наркотики, только хардкор!</h2>
-          <p class="sliders__content">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
-          <a class="btn sliders__btn" href="#">Узнать больше</a>
-        </section>
-        <div class="sliders__img-wrapper">
-          <img class="sliders__img" src="/" width="250" height="150" alt="Изображение к слайду 3">
-        </div>
-      </div>
-      <div class="sliders__controls-wrapper">
-        <input class="sliders__input sliders__input_checked" type="radio" name="point" id="slider1">
-        <input class="sliders__input" type="radio" name="point" id="slider2">
-        <input class="sliders__input" type="radio" name="point" id="slider3">
-        <div class="sliders__controls">
-          <label for="slider1"></label>
-          <label for="slider2"></label>
-          <label for="slider3"></label>
-        </div>
-      </div>
-    </section>
-    <div class="service">
-      <div class="service__web">
-        <figure class="service__img-wrapper">
-          <img class="service__img" src="/" width="200" height="100" alt="Веб-сайты">
-        </figure>
-        <h3 class="service__header">Веб-сайты</h3>
-        <p class="service__content">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-        <a class="btn service__web-btn" href="#">Заказать</a>
-      </div>
-      <div class="service__app">
-        <figure class="service__img-wrapper">
-          <img class="service__img" src="/" width="200" height="100" alt="Приложения">
-        </figure>
-        <h3 class="service__header">Приложения</h3>
-        <p class="service__content">Покорите топ-10 приложений в AppStore и Google Play</p>
-        <a class="btn service__app-btn" href="#">Заказать</a>
-      </div>
-      <div class="service_presentation">
-        <figure class="service__img-wrapper">
-          <img class="service__img" src="/" width="200" height="100" alt="Презентации">
-        </figure>
-        <h3 class="service__header">Презентации</h3>
-        <p class="service__content">Вы даже не подозреваете, насколько вы изумительны!</p>
-        <a class="btn service__presentation-btn" href="#">Заказать</a>
-      </div>
-    </div>
-    <div class="about">
-      <section class="about__desc">
-        <h2 class="about__header">Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
-        <p class="about__content">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива, работаем
-          непокладая рук, как роботы.</p>
-        <h4>Выполняем заказы на разработку:</h4>
-        <ul class="about__services">
-          <li class="item about__web">Веб-сайтов любой сложности</li>
-          <li class="item about__app">Мобильных приложений для iOS и Android</li>
-          <li class="item about__presentation">Слайдшоу и видео для корпоративных презентаций</li>
-        </ul>
-      </section>
-      <div class="about__numbers">
-        <div class="about__logo">
-          <a href="#"><img class="logo__img" src="/" width="150" height="50" alt="Дизайн-студия Нердс"></a>
-        </div>
-        <section class="about__numbers-work">
-          <h4>Как мы работаем:</h4>
-          <ul class="about__numbers-content">
-            <li class="item">С самоотдачей 146%</li>
-            <li class="item">Соблюдая сроки на 100%</li>
-            <li class="item">По предоплате 50%</li>
-          </ul>
-        </section>
-      </div>
-    </div>
-    <section class="clients">
-      <figure class="clients__logo-wrapper">
-        <img class="clients__logo" src="/" width="200" height="100" alt="GLUKHANKO">
-      </figure>
-      <figure class="clients__logo-wrapper">
-        <img class="clients__logo" src="/" width="200" height="100" alt="HTML Academy">
-      </figure>
-      <figure class="clients__logo-wrapper">
-        <img class="clients__logo" src="/" width="200" height="100" alt="Borodinski">
-      </figure>
-    </section>
-    <div class="map">
-      <div class="map__contacts">
-        <h4>Nerds design studio</h4>
-        <p>191186, Санкт-Петербург,<br> ул.Б.Конюшенная, д. 19/8</p>
-        <p><a href="tel:+78122757575">тел. +7 (812) 275-75-75</a></p>
-        <a class="btn" href="mailto:#">Напишите нам</a>
-      </div>
-      <iframe class="map__frame"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1413.2238634373803!2d30.3217936920203!3d59.93877344185344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sby!4v1479340016616"
-              width="600" height="450" style="border:0" allowfullscreen></iframe>
-    </div>
-  </div>
+	<div class="main__wrapper">
+		<section class="sliders">
+			<section class="sliders__slider1 slide">
+				<section class="slide__desc">
+					<h2 class="slide__title">Долго, дорого, скрупулезно.</h2>
+					<p class="slide__content">Математически выраженный дизайн для вашего сайта или мобильного приложения.</p>
+					<a class="btn  slide__btn" href="#">Узнать больше</a>
+				</section>
+				<img class="slide__img" src="/" width="250" height="150" alt="Изображение к слайду 1">
+			</section>
+			<section class="sliders__slider2 slide">
+				<section class="slide__desc">
+					<h2 class="slide__title">Любите ли вы математику, как любим ее мы?</h2>
+					<p class="slide__content">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
+					<a class="btn  slide__btn" href="#">Узнать больше</a>
+				</section>
+				<img class="slide__img" src="/" width="250" height="150" alt="Изображение к слайду 2">
+			</section>
+			<section class="sliders__slider3 slide">
+				<section class="slide__desc">
+					<h2 class="slide__title">Только наркотики, только хардкор!</h2>
+					<p class="slide__content">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
+					<a class="btn slide__btn" href="#">Узнать больше</a>
+				</section>
+				<img class="slide__img" src="/" width="250" height="150" alt="Изображение к слайду 3">
+			</section>
+			<div class="sliders__control">
+				<input class="sliders__input sliders__input--checked" type="radio" name="point" id="slider1">
+				<input class="sliders__input" type="radio" name="point" id="slider2">
+				<input class="sliders__input" type="radio" name="point" id="slider3">
+				<div class="sliders__toggles">
+					<label class="sliders__toggle" for="slider1"></label>
+					<label class="sliders__toggle" for="slider2"></label>
+					<label class="sliders__toggle" for="slider3"></label>
+				</div>
+			</div>
+		</section>
+		<section class="service">
+			<section class="service__web">
+				<img class="service__img" src="/" width="200" height="100" alt="Веб-сайты">
+				<h3 class="service__header">Веб-сайты</h3>
+				<p class="service__content">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+				<a class="btn service__web-btn" href="#">Заказать</a>
+			</section>
+			<section class="service__app">
+				<img class="service__img" src="/" width="200" height="100" alt="Приложения">
+				<h3 class="service__header">Приложения</h3>
+				<p class="service__content">Покорите топ-10 приложений в AppStore и Google Play</p>
+				<a class="btn service__app-btn" href="#">Заказать</a>
+			</section>
+			<section class="service__presentation">
+				<img class="service__img" src="/" width="200" height="100" alt="Презентации">
+				<h3 class="service__header">Презентации</h3>
+				<p class="service__content">Вы даже не подозреваете, насколько вы изумительны!</p>
+				<a class="btn service__presentation-btn" href="#">Заказать</a>
+			</section>
+		</section>
+		<section class="about-studio">
+			<section class="about-studio__desc">
+				<h2 class="about-studio__title">Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
+				<p class="about-studio__content">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива, работаем
+					непокладая рук, как роботы.</p>
+			</section>
+			<section class="about-studio__list-development">
+				<h4 class="about-studio__list-title">Выполняем заказы на разработку:</h4>
+				<ul class="about-studio__list">
+					<li class="about-studio__item ">Веб-сайтов любой сложности</li>
+					<li class="about-studio__item">Мобильных приложений для iOS и Android</li>
+					<li class="about-studio__item">Слайдшоу и видео для корпоративных презентаций</li>
+				</ul>
+			</section>
+			<a href="#"><img class="logo__img" src="/" width="150" height="50" alt="Дизайн-студия Нердс"></a>
+			<section class="about-studio__list-numbers">
+				<h4 class="about-studio__list-title">Как мы работаем:</h4>
+				<ul class="about-studio__list">
+					<li class="about-studio__item">С самоотдачей 146%</li>
+					<li class="about-studio__item">Соблюдая сроки на 100%</li>
+					<li class="about-studio__item">По предоплате 50%</li>
+				</ul>
+			</section>
+		</section>
+		<section class="clients">
+			<img class="clients__logo" src="/" width="200" height="100" alt="GLUKHANKO">
+			<img class="clients__logo" src="/" width="200" height="100" alt="HTML Academy">
+			<img class="clients__logo" src="/" width="200" height="100" alt="Borodinski">
+		</section>
+		<section class="contacts">
+			<h4 class="contacts__title">Nerds design studio</h4>
+			191186, Санкт-Петербург,<br> ул.Б.Конюшенная, д. 19/8
+			<a class="contacts__tel" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
+			<a class="btn contacts__mail" href="mailto:#">Напишите нам</a>
+		</section>
+		<div class="map">
+			<iframe class="map__frame"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1413.2238634373803!2d30.3217936920203!3d59.93877344185344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sby!4v1479340016616"
+							width="600" height="450" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div>
 </main>
 <footer class="footer">
-  <div class="footer__social">
-    <a class="footer__vk-btn" href="#">Вконтакте</a>
-    <a class="footer__fb-btn" href="#">Фэйсбук</a>
-    <a class="footer__insta-btn" href="#">Инстаграм</a>
-  </div>
-  <div class="footer__content-wrapper">
-    <h2 class="footer__header">Давайте дружить, это выгодно!</h2>
-    <p class="footer__content">Скидка 10% для друзей из социальных сетей.</p>
-  </div>
+	<section class="social">
+		<a class="social__btn  social__btn--vk" href="#">Вконтакте</a>
+		<a class="social__btn  social__btn--fb" href="#">Фэйсбук</a>
+		<a class="social__btn  social__btn--in" href="#">Инстаграм</a>
+	</section>
+	<section class="footer__discont">
+		<h2 class="footer__discont-title">Давайте дружить, это выгодно!</h2>
+		Скидка 10% для друзей из социальных сетей.
+	</section>
 </footer>
 </body>
 </html>
